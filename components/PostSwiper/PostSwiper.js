@@ -65,8 +65,9 @@ export default ({
       )}
       <Box
         ref={containerElem}
-        height="54rem"
+        height={["30rem", "54rem"]}
         opacity={imgLoaded ? 1 : 0}
+        pb={[16, 0]}
       >
         <Swiper
           onSwiper={(swiper) => {
@@ -88,7 +89,7 @@ export default ({
           ))}
         </Swiper>
         <Container display="flex" justifyContent="flex-end" pt={4}>
-          <Wrap spacing={4} px={8}>
+          <Wrap spacing={4} px={[0, 8]}>
             <RoundedButton
               onClick={onPrevClick}
               fontSize="2.2rem"

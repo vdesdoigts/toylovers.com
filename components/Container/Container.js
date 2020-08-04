@@ -2,7 +2,7 @@ import React from 'react'
 import { Container as ChakraContainer } from '@chakra-ui/core'
 
 const Container = ({ children, ...rest }) => (
-  <ChakraContainer maxW="xl" px="16" {...rest}>
+  <ChakraContainer maxW="xl" px={[8, 16]} {...rest}>
     {children}
   </ChakraContainer>
 )

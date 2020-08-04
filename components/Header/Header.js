@@ -33,7 +33,7 @@ const Header = () => {
       top={0}
       left={0}
       width="100%"
-      px={8}
+      px={[0, 8]}
       bgColor="white"
     >
       <Container
@@ -50,7 +50,7 @@ const Header = () => {
             zIndex={1}
             display="inline-block"
             marginBottom="1"
-            fontSize="4rem"
+            fontSize={['2.8rem', '4rem']}
             fontWeight="black"
             textTransform="uppercase"
             transition="all 0.4s cubic-bezier(.08,.52,.52,1)"
