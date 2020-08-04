@@ -1,19 +1,22 @@
 ---
-title: Plasticaction
+title: Prehistoricpat
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/lovers/plasticaction/plasticaction_0.jpg'
+coverImage: '/assets/lovers/prehistoricpat/prehistoricpat_0.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Jax Navarro
-  picture: '/assets/lovers/plasticaction/plasticaction_0.jpg'
+  name: Patrik Röhr
+  picture: '/assets/lovers/prehistoricpat/prehistoricpat_0.jpg'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 swiper: [
-  '/assets/lovers/plasticaction/french-toy-plasticaction_0.jpg',
+  '/assets/lovers/prehistoricpat/french-toy-prehistoricpat_0.jpg',
+  '/assets/lovers/prehistoricpat/french-toy-prehistoricpat_1.jpg',
+  '/assets/lovers/prehistoricpat/french-toy-prehistoricpat_2.jpg',
+  '/assets/lovers/prehistoricpat/french-toy-prehistoricpat_3.jpg',
 ]
 instagram:
-  label: Jax's\n Instagram
-  link: https://instagram.com/french_toy_love
+  label: Patrik's\n Instagram
+  link: https://instagram.com/prehistoricpat
 ---
 
 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. 

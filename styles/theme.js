@@ -1,6 +1,6 @@
 import chakraTheme from '@chakra-ui/theme'
 
-export const breakpoints = ['30em', '48em', '62em', '105em'];
+export const breakpoints = ['30em', '48em', '62em', '77.5em']
 
 const theme = {
   ...chakraTheme,

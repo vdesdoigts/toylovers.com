@@ -1,19 +1,22 @@
 ---
-title: Plasticaction
+title: Sugar Check
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/lovers/plasticaction/plasticaction_0.jpg'
+coverImage: '/assets/lovers/sugar-check/sugar-check_0.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Jax Navarro
-  picture: '/assets/lovers/plasticaction/plasticaction_0.jpg'
+  name: Sugar Check
+  picture: '/assets/lovers/sugar-check/sugar-check_0.jpg'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 swiper: [
-  '/assets/lovers/plasticaction/french-toy-plasticaction_0.jpg',
+  '/assets/lovers/sugar-check/sugar-check_0.jpg',
+  '/assets/lovers/sugar-check/sugar-check_1.jpg',
+  '/assets/lovers/sugar-check/sugar-check_2.jpg',
+  '/assets/lovers/sugar-check/sugar-check_3.jpg',
 ]
 instagram:
-  label: Jax's\n Instagram
-  link: https://instagram.com/french_toy_love
+  label: Sugar's\n Instagram
+  link: https://www.instagram.com/sugar.check/
 ---
 
 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. 

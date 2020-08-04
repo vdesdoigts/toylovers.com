@@ -17,6 +17,7 @@ const PostCard = ({
   author,
   slug,
   excerpt,
+  handleImageChange,
 }) => {
   const dispatch = useCursorDispatch()
   
@@ -28,12 +29,14 @@ const PostCard = ({
       onMouseLeave={() => dispatch({ color: '#000', type: DEFAULT_TYPE })}
     >
       <Link as={`/posts/${slug}`} href="/posts/[slug]">
-        <Box as="a" aria-label={title}>
+        <Box as="a" aria-label={title} href={`/posts/${slug}`}>
           <AspectRatio ratio={600/480}>
             <Image
               alt={title} 
               src={coverImage}
               objectFit="cover"
+              onLoad={() => console.log('onLoad')}
+              onError={handleImageChange}
             />
           </AspectRatio>
           <Box

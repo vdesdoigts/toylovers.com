@@ -1,21 +1,22 @@
 ---
-title: French Toy Love
+title: Duane Shoots Toys
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/lovers/french-toy-love/french-toy-love_1.jpg'
+coverImage: '/assets/lovers/duaneshootstoys/duaneshootstoys_0.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  name: Joe Hume
-  picture: '/assets/lovers/french-toy-love/french-toy-love_1.jpg'
+  name: Duane Perera
+  picture: '/assets/lovers/duaneshootstoys/duaneshootstoys_0.jpg'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 swiper: [
-  '/assets/lovers/french-toy-love/french-toy-love_1.jpg',
-  '/assets/lovers/french-toy-love/french-toy-love_2.jpg',
-  '/assets/lovers/french-toy-love/french-toy-love_3.jpg',
+  '/assets/lovers/duaneshootstoys/duaneshootstoys_0.jpg',
+  '/assets/lovers/duaneshootstoys/duaneshootstoys_1.jpg',
+  '/assets/lovers/duaneshootstoys/duaneshootstoys_2.jpg',
+  '/assets/lovers/duaneshootstoys/duaneshootstoys_3.jpg',
 ]
 instagram:
-  label: Joe's
-  link: https://www.instagram.com/french_toy_love
+  label: Duane's
+  link: https://www.instagram.com/duaneshootstoys
 ---
 
 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. 

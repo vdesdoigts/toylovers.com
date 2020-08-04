@@ -11,12 +11,20 @@ export default function Home({ allPosts }) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>{CMS_NAME}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Container as="main">
-        <Grid templateColumns="repeat(3, 1fr)" gap={8}>
+        <Grid templateColumns={[
+            'repeat(1, 1fr)',
+            'repeat(1, 1fr)',
+            'repeat(2, 1fr)',
+            'repeat(2, 1fr)',
+            'repeat(3, 1fr)',
+          ]}
+          gap={8}
+        >
           {allPosts.length > 0 && allPosts.map(post => (
             <PostCard
               key={post.title}
