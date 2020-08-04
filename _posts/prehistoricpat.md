@@ -15,7 +15,7 @@ swiper: [
   '/assets/lovers/prehistoricpat/french-toy-prehistoricpat_3.jpg',
 ]
 instagram:
-  label: Patrik's\n Instagram
+  label: Patrik's
   link: https://instagram.com/prehistoricpat
 ---
 

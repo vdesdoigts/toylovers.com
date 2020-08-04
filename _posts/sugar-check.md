@@ -15,7 +15,7 @@ swiper: [
   '/assets/lovers/sugar-check/sugar-check_3.jpg',
 ]
 instagram:
-  label: Sugar's\n Instagram
+  label: Sugar's
   link: https://www.instagram.com/sugar.check/
 ---
 

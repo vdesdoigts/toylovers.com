@@ -10,9 +10,12 @@ ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 swiper: [
   '/assets/lovers/monsterlaut/monsterlaut_0.jpg',
+  '/assets/lovers/monsterlaut/monsterlaut_1.jpg',
+  '/assets/lovers/monsterlaut/monsterlaut_2.jpg',
+  '/assets/lovers/monsterlaut/monsterlaut_3.jpg',
 ]
 instagram:
-  label: Gibran's\n Instagram
+  label: Gibran's
   link: https://instagram.com/monsterlaut
 ---
 

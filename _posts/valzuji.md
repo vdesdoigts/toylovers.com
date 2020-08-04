@@ -14,7 +14,7 @@ swiper: [
   '/assets/lovers/valzuji/valzuji_2.jpg',
 ]
 instagram:
-  label: Valzuji's\n Instagram
+  label: Valzuji's
   link: https://www.instagram.com/sugar.check/
 ---
 
