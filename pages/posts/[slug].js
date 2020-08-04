@@ -62,12 +62,14 @@ export default function Post({ post }) {
               pt="16"
               maxWidth="82rem"
             >
-              <Heading
-                as="h2"
-                {...titleStyle}
-              >
-                {post.author.name}
-              </Heading><br />
+              {post.author.name !== post.title && (<>
+                <Heading
+                  as="h2"
+                  {...titleStyle}
+                >
+                  {post.author.name}
+                </Heading><br />
+              </>)}
               <Heading
                 as="h1"
                 {...titleStyle}

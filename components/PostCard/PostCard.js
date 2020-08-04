@@ -49,12 +49,14 @@ const PostCard = ({
             textTransform="uppercase"
             lineHeight={1.1}
           >
-            <Text
-              fontSize="2rem"
-              fontWeight="medium"
-            >
-              {author.name}
-            </Text>
+            {author.name !== title && (
+              <Text
+                fontSize="2rem"
+                fontWeight="medium"
+              >
+                {author.name}
+              </Text>
+            )}
             <Heading
               as="h2"
               fontSize="3rem"
