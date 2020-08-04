@@ -35,7 +35,7 @@ const PostCard = ({
               alt={title} 
               src={coverImage}
               objectFit="cover"
-              onLoad={() => console.log('onLoad')}
+              onLoad={handleImageChange}
               onError={handleImageChange}
             />
           </AspectRatio>

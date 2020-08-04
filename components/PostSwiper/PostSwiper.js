@@ -5,30 +5,18 @@ import { Box, Icon, Image, Spinner, Wrap } from '@chakra-ui/core'
 import { RiArrowRightSLine, RiArrowLeftSLine } from 'react-icons/ri'
 import Container from '../Container'
 import RoundedButton from '../RoundedButton'
+import { imagesLoaded } from '../../lib/medias'
 
 // install Swiper components
 SwiperCore.use([A11y, Keyboard, Lazy, Navigation])
-
-function imagesLoaded(parentNode) {
-  const imgElements = [...parentNode.querySelectorAll('img')]
-  
-  for (let i = 0; i < imgElements.length; i += 1) {
-    const img = imgElements[i]
-
-    if (!img.complete) {
-      return false
-    }
-  }
-
-  return true
-}
 
 export default ({
   slides,
 }) => {
   const containerElem = useRef()
   const swiperRef = useRef(null)
-  const [imgLoaded, setImgLoaded] = useState(true)
+  const [imgLoaded, setImgLoaded] = useState(false)
+  const [imgReady, setImgReady] = useState(false)
 
   const onPrevClick = (e) => {
     e.preventDefault()
@@ -53,7 +41,7 @@ export default ({
 
   return (
     <>
-      {!imgLoaded && (
+      {!imgLoaded && !imgReady && (
         <Box
           position="absolute"
           top={0}
@@ -86,6 +74,8 @@ export default ({
           }}
           spaceBetween={10}
           slidesPerView="auto"
+          updateOnImagesReady={true}
+          onImagesReady={() => setImgReady(true)}
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>

@@ -9,10 +9,13 @@ author:
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 swiper: [
-  '/assets/lovers/plasticaction/french-toy-plasticaction_0.jpg',
+  '/assets/lovers/plasticaction/plasticaction_0.jpg',
+  '/assets/lovers/plasticaction/plasticaction_1.jpg',
+  '/assets/lovers/plasticaction/plasticaction_2.jpg',
+  '/assets/lovers/plasticaction/plasticaction_3.jpg',
 ]
 instagram:
-  label: Jax's\n Instagram
+  label: Jax's
   link: https://instagram.com/french_toy_love
 ---
 
