@@ -17,6 +17,10 @@ const CursorEl = styled.div`
   border-radius: 50%;
   background: transparent;
   pointer-events: none;
+
+  @media (hover: none) and (pointer: coarse) {
+    display: none;
+  }
 `
 const AnimatedCursor = animated(CursorEl)
 
