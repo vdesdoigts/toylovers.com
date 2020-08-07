@@ -4,9 +4,9 @@ import {
   AspectRatio,
   Box,
   Heading,
-  Image,
   Text,
 } from '@chakra-ui/core'
+import Image from 'react-cool-img'
 import DateFormater from './../DateFormater'
 import { useCursorDispatch, CARD_TYPE, DEFAULT_TYPE } from '../../contexts/Cursor'
 
@@ -32,11 +32,9 @@ const PostCard = ({
         <Box as="a" aria-label={title} href={`/posts/${slug}`}>
           <AspectRatio ratio={600/480}>
             <Image
+              style={{ backgroundColor: '#E2E8F0', objectFit: 'cover' }}
               alt={title} 
               src={coverImage}
-              objectFit="cover"
-              onLoad={handleImageChange}
-              onError={handleImageChange}
             />
           </AspectRatio>
           <Box
