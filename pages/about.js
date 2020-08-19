@@ -63,18 +63,24 @@ export default function Post({ post }) {
                   href="https://twitter.com/vdesdoigts"
                   position="relative"
                   zIndex={0}
-                  borderBottom="2px solid #FFFC0B"
+                  display="inline-block"
+                  fontSize="2rem"
+                  cursor="pointer"
+                  _before={{
+                    content: `""`,
+                    position: 'absolute',
+                    zIndex: -1,
+                    bottom: 0,
+                    left: '-2px',
+                    display: 'block',
+                    width: 'calc(100% + 4px)',
+                    height: '10%',
+                    bg: '#FFFC0B',
+                    transition: 'height .2s ease'
+                  }}
                   _hover={{
                     _before: {
-                      content: `""`,
-                      position: 'absolute',
-                      zIndex: -1,
-                      bottom: 0,
-                      left: '-6px',
-                      display: 'block',
-                      width: 'calc(100% + 12px)',
                       height: '56%',
-                      bg: '#FFFC0B',
                     }
                   }}
                 >

@@ -47,13 +47,14 @@ const Header = () => {
         width="100%"
         px={[0, 8]}
         bgColor="white"
+        borderBottom={`.4rem solid ${isMinified ? '#FFFC0B' : 'white'}`}
       >
         <Container
           display="flex"
           alignItems="center"
           justifyContent="space-between"
           transition="all 0.4s cubic-bezier(.08,.52,.52,1)"
-          height={isMinified ? '7rem' : '9rem'}
+          height={isMinified ? '6rem' : '8rem'}
         >
           <Link as="/" href="/">
             <Heading
@@ -89,7 +90,7 @@ const Header = () => {
               onClick={onOpen}
               position="relative"
               fontSize="1.6rem"
-              cursor="pointter"
+              cursor="pointer"
               _hover={{
                 _before: {
                   content: `""`,

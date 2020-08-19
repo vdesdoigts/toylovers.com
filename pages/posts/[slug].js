@@ -55,12 +55,21 @@ export default function Post({ post }) {
               <title>
                 {post.title} | {CMS_NAME}
               </title>
+              
+              <meta property="og:description" content={post.excerpt} />
+              <meta property="og:url" content={post.slug} />
               <meta property="og:image" content={post.ogImage.url} />
+              {/* <meta property="og:image:url" content={`${GatsbyConfig.siteMetadata.siteUrl}/images/logo-1200x630.png`} /> */}
+              {/* <meta property="og:image:url:width" content="1200" /> */}
+              {/* <meta property="og:image:url:height" content="630" /> */}
+              <meta property="article:published_time" content={post.date} />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:site" content="@vdesdoigts" />
             </Head>
             <PostSwiper slides={post.swiper} />
             <Container
               pt="16"
-              maxWidth="82rem"
+              maxWidth="80rem"
             >
               {post.author.name !== post.title && (<>
                 <Heading
@@ -78,7 +87,7 @@ export default function Post({ post }) {
               </Heading>
             </Container>
             <Container
-              maxWidth="82rem"
+              maxWidth="80rem"
             >
               {markdownToComponent(post.content)}
             </Container>
@@ -86,7 +95,7 @@ export default function Post({ post }) {
               position={['relative', 'relative', 'relative', 'relative', 'fixed']}
               bottom={[0, 0, 0, 0, 8]}
               left={0}
-              maxWidth={['82rem', '82rem', '82rem', '82rem', 'xl']}
+              maxWidth={['80rem', '80rem', '80rem', '80rem', 'xl']}
               pt={16}
               pointerEvents="none"
             >
