@@ -1,8 +1,9 @@
 import { Box, Heading as ChakraHeading, Image as ChakraImage, Text as ChakraText } from '@chakra-ui/core'
 import ReactCoolImage from 'react-cool-img'
+import PostSwiper from '../PostSwiper'
 
 export const Heading = (props) => (
-  <ChakraHeading pt="16" fontSize="3.4rem" fontWeight="bold" {...props} />
+  <ChakraHeading pt="24" fontSize="3.4rem" fontWeight="bold" {...props} />
 )
 
 export const Text = (props) => (
@@ -17,18 +18,6 @@ export const Image = (props) => (
     width="108%"
     ml="-4%"
     mb={2}
-    // _before={{
-    //   content: `""`,
-    //   position: 'absolute',
-    //   zIndex: -1,
-    //   bottom: '-10px',
-    //   right: '-20px',
-    //   display: 'block',
-    //   width: '100%',
-    //   height: '100%',
-    //   bg: '#FFFC0B',
-    //   transition: 'inherit',
-    // }}
   >
     <ChakraImage
       {...props}
@@ -65,3 +54,29 @@ export const Link = (props) => (
     }}
   />
 )
+
+export const Swiper = (props) => {
+  const slides = JSON.parse(props.children[0])
+
+  return (
+    <Box
+      position="relative"
+      height={['28rem', '38rem']}
+      mt={16}
+      bgcolor="#ccc"
+    >
+      <Box
+        position="absolute"
+        top={0}
+        left="-4rem"
+        width="calc(40rem + 100vw / 2)"
+      >
+        <PostSwiper
+          slides={slides}
+          swiperHeight={['28rem', '38rem']}
+          showNavigation={false}
+        />
+      </Box>
+    </Box>
+  )
+}

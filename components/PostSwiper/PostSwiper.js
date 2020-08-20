@@ -13,6 +13,8 @@ SwiperCore.use([A11y, Keyboard, Lazy, Navigation])
 
 export default ({
   slides,
+  swiperHeight = ['30rem', '54rem'],
+  showNavigation = true,
 }) => {
   const swiperRef = useRef(null)
 
@@ -34,7 +36,7 @@ export default ({
 
   return (
     <Box
-      height={["30rem", "54rem"]}
+      height={swiperHeight}
       pb={[16, 0]}
     >
       <Swiper
@@ -54,36 +56,38 @@ export default ({
           </SwiperSlide>
         ))}
       </Swiper>
-      <Container display="flex" justifyContent="flex-end" pt={4}>
-        <Wrap spacing={4} px={[0, 8]}>
-          <RoundedButton
-            onClick={onPrevClick}
-            fontSize="2.2rem"
-            color="#000"
-          >
-            <Icon
-              as={RiArrowLeftSLine}
-              display="inline-block"
-              boxSize="3rem"
-              pb=".4rem"
-              verticalAlign="middle"
-            />
-          </RoundedButton>
-          <RoundedButton
-            onClick={onNextClick}
-            fontSize="2.2rem"
-            color="#000"
-          >
-            <Icon
-              as={RiArrowRightSLine}
-              display="inline-block"
-              boxSize="3rem"
-              pb=".4rem"
-              verticalAlign="middle"
-            />
-          </RoundedButton>
-        </Wrap>
-      </Container>
+      {showNavigation && (
+        <Container display="flex" justifyContent="flex-end" pt={4}>
+          <Wrap spacing={4} px={[0, 8]}>
+            <RoundedButton
+              onClick={onPrevClick}
+              fontSize="2.2rem"
+              color="#000"
+            >
+              <Icon
+                as={RiArrowLeftSLine}
+                display="inline-block"
+                boxSize="3rem"
+                pb=".4rem"
+                verticalAlign="middle"
+              />
+            </RoundedButton>
+            <RoundedButton
+              onClick={onNextClick}
+              fontSize="2.2rem"
+              color="#000"
+            >
+              <Icon
+                as={RiArrowRightSLine}
+                display="inline-block"
+                boxSize="3rem"
+                pb=".4rem"
+                verticalAlign="middle"
+              />
+            </RoundedButton>
+          </Wrap>
+        </Container>
+      )}
     </Box>
   );
 };

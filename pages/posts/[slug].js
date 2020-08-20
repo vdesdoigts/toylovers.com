@@ -88,6 +88,7 @@ export default function Post({ post }) {
             </Container>
             <Container
               maxWidth="80rem"
+              lineHeight="1.6"
             >
               {markdownToComponent(post.content)}
             </Container>

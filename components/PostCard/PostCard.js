@@ -10,6 +10,29 @@ import Image from 'react-cool-img'
 import DateFormater from './../DateFormater'
 import { useCursorDispatch, CARD_TYPE, DEFAULT_TYPE } from '../../contexts/Cursor'
 
+const textHover = {
+  position: 'relative',
+  zIndex: '1',
+  display: 'inline-block',
+  _before: {
+    content: `""`,
+    position: 'absolute',
+    zIndex: -1,
+    bottom: 0,
+    left: '-2px',
+    display: 'block',
+    width: 'calc(100% + 4px)',
+    height: '0',
+    bg: 'black',
+    transition: 'height .2s ease'
+  },
+  _groupHover: {
+    _before: {
+      height: '56%',
+    }
+  }
+}
+
 const PostCard = ({
   title,
   coverImage,
@@ -27,6 +50,7 @@ const PostCard = ({
       position="relative"
       onMouseEnter={() => dispatch({ color: '#FFF', type: CARD_TYPE })}
       onMouseLeave={() => dispatch({ color: '#000', type: DEFAULT_TYPE })}
+      role="group"
     >
       <Link as={`/posts/${slug}`} href="/posts/[slug]">
         <Box as="a" aria-label={title} href={`/posts/${slug}`}>
@@ -47,18 +71,20 @@ const PostCard = ({
             textTransform="uppercase"
             lineHeight={1.1}
           >
-            {author.name !== title && (
+            {author.name !== title && (<>
               <Text
                 fontSize="2rem"
                 fontWeight="medium"
+                {...textHover}
               >
                 {author.name}
-              </Text>
-            )}
+              </Text><br/>
+            </>)}
             <Heading
               as="h2"
               fontSize="3rem"
               fontWeight="bold"
+              {...textHover}
             >
               {title}
             </Heading>

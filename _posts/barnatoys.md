@@ -37,6 +37,8 @@ I like to extend the original stories where the toys come from. As a kid, our im
 
 This is the type of question I try to answer with my photographies. **I try to keep my childish spirit 🎈**
 
+###### ["/assets/lovers/barnatoys/barnatoys_8.jpg", "/assets/lovers/barnatoys/barnatoys_9.jpg", "/assets/lovers/barnatoys/barnatoys_4.jpg", "/assets/lovers/barnatoys/barnatoys_5.jpg", "/assets/lovers/barnatoys/barnatoys_6.jpg"]
+
 
 ## What’s your gear?
 
@@ -53,8 +55,6 @@ As I don’t have a lot of stuff to do dioramas, I used to shoot portrait style 
 
 Since july with my new camera and with the fact that I am at family house, I can shoot a lot more outside, so I try to change a bit my habits. I can play with nature and practice new light effects. I try to have "natural" lights so I use one source of light only. I’m kind of in a "warm" zone lately, with sunset/sunrise simulations.
 
-![Supergirl and Bruce Lee](/assets/lovers/barnatoys/barnatoys_combo_0.jpg)
-
 
 ## Any advice for a beginner?
 
@@ -62,7 +62,7 @@ There are lot of websites, like [toyphotographers.com](https://toyphotographers.
 
 Try to take part on some contest because they will stimulate your creativity. I shot what I found is my favorite picture participating in a contest where the word was : **Reflection**.
 
-<!-- ![Catflection!](/assets/lovers/barnatoys/barnatoys_0.jpg) -->
+###### ["/assets/lovers/barnatoys/barnatoys_11.jpg", "/assets/lovers/barnatoys/barnatoys_15.jpg", "/assets/lovers/barnatoys/barnatoys_16.jpg", "/assets/lovers/barnatoys/barnatoys_0.jpg"]
 
 Learn to know your style, you will see a lot of awesome pictures, some that require hours of editing with Photoshop, some that just with the posing and the light will be very poetic. 
 
@@ -80,4 +80,4 @@ One that I like a lot lately is [Plasticaction](https://www.instagram.com/plasti
 
 This is so hard to answer... If I only had to keep one, maybe a Xenomorph form Alien. It’s one of the most iconic creature from the movie industry. I think its design is perfect, and I like to shoot it doing other stuff than frightening humans.
 
-![Xenomorph on a bench](/assets/lovers/barnatoys/barnatoys_combo_1.jpg)
+###### ["/assets/lovers/barnatoys/barnatoys_7.jpg", "/assets/lovers/barnatoys/barnatoys_10.jpg", "/assets/lovers/barnatoys/barnatoys_14.jpg", "/assets/lovers/barnatoys/barnatoys_12.jpg", "/assets/lovers/barnatoys/barnatoys_13.jpg"]

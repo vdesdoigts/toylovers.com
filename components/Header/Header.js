@@ -19,22 +19,47 @@ import {
 } from '@chakra-ui/core'
 import { RiSearchLine } from 'react-icons/ri'
 import { useWindowScroll } from 'react-use'
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import Container from '../Container'
 import RoundedButton from '../RoundedButton'
 import About from '../../pages/about'
 
+const HEADER_HEIGHT = 90
+
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const { y } = useWindowScroll()
+  // const { y } = useWindowScroll()
   const [isMinified, setIsMinified] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
 
-  useEffect(() => {
-    if (y > 70 && !isMinified) {
+  useScrollPosition(({ prevPos, currPos }) => {
+
+    if (currPos.y > prevPos.y && !isVisible) {
+      setIsVisible(true)
+    } else if (currPos.y <= prevPos.y && currPos.y < -HEADER_HEIGHT && isVisible) {
+      setIsVisible(false)
+    }
+
+    if (currPos.y < -HEADER_HEIGHT && !isMinified) {
       setIsMinified(true)
-    } else if (y <= 70 && isMinified) {
+    } else if (currPos.y >= -HEADER_HEIGHT && isMinified) {
       setIsMinified(false)
     }
-  }, [y])
+
+    // if (currPos.y < -70 && !isMinified) {
+    //   setIsMinified(true)
+    // } else if (currPos.y >= -70 && isMinified) {
+    //   setIsMinified(false)
+    // }
+  })
+
+  // useEffect(() => {
+  //   if (y > 70 && !isMinified) {
+  //     setIsMinified(true)
+  //   } else if (y <= 70 && isMinified) {
+  //     setIsMinified(false)
+  //   }
+  // }, [y])
 
   return (
     <>
@@ -42,19 +67,21 @@ const Header = () => {
         as="header"
         position="fixed"
         zIndex={10}
-        top={0}
+        top={isVisible ? 0 : '-9rem'}
         left={0}
         width="100%"
+        height={isMinified ? '7rem' : '9rem'}
         px={[0, 8]}
         bgColor="white"
-        borderBottom={`.4rem solid ${isMinified ? '#FFFC0B' : 'white'}`}
+        transition="all 0.4s cubic-bezier(.08,.52,.52,1)"
+        // borderBottom={`.4rem solid ${isMinified ? '#FFFC0B' : 'white'}`}
       >
         <Container
           display="flex"
           alignItems="center"
           justifyContent="space-between"
-          transition="all 0.4s cubic-bezier(.08,.52,.52,1)"
-          height={isMinified ? '6rem' : '8rem'}
+          width="100%"
+          height="100%"
         >
           <Link as="/" href="/">
             <Heading
