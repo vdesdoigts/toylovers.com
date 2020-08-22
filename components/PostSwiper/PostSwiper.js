@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import SwiperCore, { A11y, Keyboard, Lazy, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Box, Icon, Spinner, Wrap } from '@chakra-ui/core'
+import { Box, Icon, Wrap } from '@chakra-ui/core'
 import Image from 'react-cool-img'
 import { RiArrowRightSLine, RiArrowLeftSLine } from 'react-icons/ri'
 import Container from '../Container'
@@ -16,7 +16,15 @@ export default ({
   swiperHeight = ['30rem', '54rem'],
   showNavigation = true,
 }) => {
+  const containerElem = useRef()
   const swiperRef = useRef(null)
+
+  const handleImageChange = () => {
+    const loaded = imagesLoaded(containerElem.current)
+    if (loaded && swiperRef) {
+      swiperRef.current.update()
+    }
+  }
 
   const onPrevClick = (e) => {
     e.preventDefault()
@@ -36,6 +44,7 @@ export default ({
 
   return (
     <Box
+      ref={containerElem}
       height={swiperHeight}
       pb={[16, 0]}
     >
@@ -52,6 +61,8 @@ export default ({
             <Image
               src={slide}
               style={{ backgroundColor: '#E2E8F0' }}
+              onLoad={handleImageChange}
+              onError={handleImageChange}
             />
           </SwiperSlide>
         ))}

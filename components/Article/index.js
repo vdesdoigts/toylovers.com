@@ -63,6 +63,7 @@ export const Swiper = (props) => {
       position="relative"
       height={['28rem', '38rem']}
       mt={16}
+      mb={4}
       bgcolor="#ccc"
     >
       <Box

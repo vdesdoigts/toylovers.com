@@ -1,18 +1,19 @@
 ---
 title: Barnatoys
 excerpt: "Pierre-Antoine's a French toy photographer, living in Barcelona for more than ten years. He's working as a Project Manager at a company that makes collectibles."
-coverImage: '/assets/lovers/barnatoys/barnatoys_0.jpg'
+coverImage: '/assets/lovers/barnatoys/barnatoys_catwoman_0.jpg'
 date: '2020-08-17T08:00:00.000Z'
 author:
   name: Pierre-Antoine
-  picture: '/assets/lovers/barnatoys/barnatoys_0.jpg'
+  picture: '/assets/lovers/barnatoys/barnatoys_catwoman_0.jpg'
 ogImage:
-  url: '/assets/lovers/barnatoys/barnatoys_0.jpg'
+  url: '/assets/lovers/barnatoys/barnatoys_catwoman_0.jpg'
 swiper: [
-  '/assets/lovers/barnatoys/barnatoys_0.jpg',
-  '/assets/lovers/barnatoys/barnatoys_1.jpg',
-  '/assets/lovers/barnatoys/barnatoys_2.jpg',
-  '/assets/lovers/barnatoys/barnatoys_3.jpg',
+  '/assets/lovers/barnatoys/barnatoys_catwoman_0.jpg',
+  '/assets/lovers/barnatoys/barnatoys_superman_0.jpg',
+  '/assets/lovers/barnatoys/barnatoys_batman_0.jpg',
+  '/assets/lovers/barnatoys/barnatoys_tigroo_0.jpg',
+  '/assets/lovers/barnatoys/barnatoys_manga_0.jpg',
 ]
 instagram:
   label: Pierre-Antoine's
@@ -37,7 +38,7 @@ I like to extend the original stories where the toys come from. As a kid, our im
 
 This is the type of question I try to answer with my photographies. **I try to keep my childish spirit 🎈**
 
-###### ["/assets/lovers/barnatoys/barnatoys_8.jpg", "/assets/lovers/barnatoys/barnatoys_9.jpg", "/assets/lovers/barnatoys/barnatoys_4.jpg", "/assets/lovers/barnatoys/barnatoys_5.jpg", "/assets/lovers/barnatoys/barnatoys_6.jpg"]
+###### ["/assets/lovers/barnatoys/barnatoys_ursula_0.jpg", "/assets/lovers/barnatoys/barnatoys_zodiaque_0.jpg", "/assets/lovers/barnatoys/barnatoys_lee_0.jpg", "/assets/lovers/barnatoys/barnatoys_lee_1.jpg", "/assets/lovers/barnatoys/barnatoys_obiwan_0.jpg"]
 
 
 ## What’s your gear?
@@ -62,7 +63,7 @@ There are lot of websites, like [toyphotographers.com](https://toyphotographers.
 
 Try to take part on some contest because they will stimulate your creativity. I shot what I found is my favorite picture participating in a contest where the word was : **Reflection**.
 
-###### ["/assets/lovers/barnatoys/barnatoys_11.jpg", "/assets/lovers/barnatoys/barnatoys_15.jpg", "/assets/lovers/barnatoys/barnatoys_16.jpg", "/assets/lovers/barnatoys/barnatoys_0.jpg"]
+###### ["/assets/lovers/barnatoys/barnatoys_catwoman_1.jpg", "/assets/lovers/barnatoys/barnatoys_catwoman_2.jpg", "/assets/lovers/barnatoys/barnatoys_catwoman_3.jpg", "/assets/lovers/barnatoys/barnatoys_catwoman_0.jpg"]
 
 Learn to know your style, you will see a lot of awesome pictures, some that require hours of editing with Photoshop, some that just with the posing and the light will be very poetic. 
 
@@ -80,4 +81,4 @@ One that I like a lot lately is [Plasticaction](https://www.instagram.com/plasti
 
 This is so hard to answer... If I only had to keep one, maybe a Xenomorph form Alien. It’s one of the most iconic creature from the movie industry. I think its design is perfect, and I like to shoot it doing other stuff than frightening humans.
 
-###### ["/assets/lovers/barnatoys/barnatoys_7.jpg", "/assets/lovers/barnatoys/barnatoys_10.jpg", "/assets/lovers/barnatoys/barnatoys_14.jpg", "/assets/lovers/barnatoys/barnatoys_12.jpg", "/assets/lovers/barnatoys/barnatoys_13.jpg"]
+###### ["/assets/lovers/barnatoys/barnatoys_xenomorph_0.jpg", "/assets/lovers/barnatoys/barnatoys_xenomorph_1.jpg", "/assets/lovers/barnatoys/barnatoys_xenomorph_2.jpg", "/assets/lovers/barnatoys/barnatoys_xenomorph_3.jpg", "/assets/lovers/barnatoys/barnatoys_xenomorph_4.jpg"]

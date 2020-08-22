@@ -1,11 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import Head from 'next/head'
-import { Box, Grid, Spinner } from '@chakra-ui/core'
+import { Grid } from '@chakra-ui/core'
 import { getAllPosts } from '../lib/api'
 import { CMS_NAME } from '../lib/constants'
 import Container from '../components/Container'
 import PostCard from '../components/PostCard'
-import { imagesLoaded } from '../lib/medias'
 
 export default function Home({ allPosts }) {
   return (
