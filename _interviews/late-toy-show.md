@@ -17,7 +17,7 @@ swiper: [
 ]
 instagram:
   label: Alan's
-  link: https://www.instagram.com/late-toy-show/
+  link: https://www.instagram.com/late_toy_show/
 ---
 
 

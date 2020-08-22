@@ -73,7 +73,7 @@ const PostCard = ({
           >
             {author.name !== title && (<>
               <Text
-                fontSize="2rem"
+                fontSize={['1.6rem', '1.8rem', '2rem']}
                 fontWeight="medium"
                 {...textHover}
               >
@@ -82,7 +82,7 @@ const PostCard = ({
             </>)}
             <Heading
               as="h2"
-              fontSize="3rem"
+              fontSize={['2.2rem', '2.4rem', '3rem']}
               fontWeight="bold"
               {...textHover}
             >

@@ -16,7 +16,6 @@ const titleStyle = {
   position: 'relative',
   zIndex: 1,
   display: 'inline-block',
-  fontSize: '3.4rem',
   fontWeight: 'extrabold',
   textTransform: 'uppercase',
   _before: {
@@ -79,6 +78,7 @@ export default function Post({ post }) {
               {post.author.name !== post.title && (<>
                 <Heading
                   as="h2"
+                  fontSize={['2.6rem', '2.6rem', '3.4rem']}
                   {...titleStyle}
                 >
                   {post.author.name}
@@ -86,6 +86,7 @@ export default function Post({ post }) {
               </>)}
               <Heading
                 as="h1"
+                fontSize={['2.6rem', '2.6rem', '3.4rem']}
                 {...titleStyle}
               >
                 {post.title}
@@ -96,7 +97,7 @@ export default function Post({ post }) {
               lineHeight="1.6"
             >
               {markdownToComponent(post.content)}
-              <Text pt="12" fontSize="2rem" fontWeight="medium">Cheers 🤘</Text>
+              <Text pt="12" fontSize={['1.8rem', '1.8rem', '2rem']} fontWeight="medium">Cheers 🤘</Text>
             </Container>
             <Container
               position={['relative', 'relative', 'relative', 'relative', 'fixed']}

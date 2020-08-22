@@ -1,5 +1,6 @@
 html,
 body {
+  overflow-x: hidden;
   font-size: 62.5%;
   font-size: calc(1em * 0.625);
   line-height: 1.5;

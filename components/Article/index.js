@@ -1,13 +1,12 @@
 import { Box, Heading as ChakraHeading, Image as ChakraImage, Text as ChakraText } from '@chakra-ui/core'
-import ReactCoolImage from 'react-cool-img'
 import PostSwiper from '../PostSwiper'
 
 export const Heading = (props) => (
-  <ChakraHeading pt="24" fontSize="3.4rem" fontWeight="bold" {...props} />
+  <ChakraHeading pt="24" fontSize={['2.6rem', '2.6rem', '3.4rem']} fontWeight="bold" {...props} />
 )
 
 export const Text = (props) => (
-  <ChakraText pt="12" fontSize="2rem" fontWeight="medium" {...props} />
+  <ChakraText pt="12" fontSize={['1.8rem', '1.8rem', '2rem']} fontWeight="medium" {...props} />
 )
 
 export const Image = (props) => (
@@ -33,7 +32,7 @@ export const Link = (props) => (
     target="_blank"
     position="relative"
     display="inline-block"
-    fontSize="2rem"
+    fontSize={['1.6rem', '1.6rem', '2rem']}
     cursor="pointer"
     _before={{
       content: `""`,
