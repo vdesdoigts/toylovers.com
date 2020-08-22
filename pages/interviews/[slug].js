@@ -94,6 +94,7 @@ export default function Post({ post }) {
               lineHeight="1.6"
             >
               {markdownToComponent(post.content)}
+              <Text pt="12" fontSize="2rem" fontWeight="medium">Cheers 🤘</Text>
             </Container>
             <Container
               position={['relative', 'relative', 'relative', 'relative', 'fixed']}
@@ -143,6 +144,7 @@ export default function Post({ post }) {
 export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     'title',
+    'excerpt',
     'date',
     'slug',
     'author',

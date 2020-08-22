@@ -68,3 +68,8 @@ Eventually, you will find a style that you gravitate into. Right now, **I love b
 ## Who is your favorite toy photographer at the moment, or the one who inspires you the most?
 
 There are so many like [tyo_nugroh0](https://www.instagram.com/tyo_nugroh0/), [akirajo9](https://www.instagram.com/akirajo9/), [figuremaniashow](https://www.instagram.com/figuremaniashow/) (Harold Ruiz), [inspiredbyandre](https://www.instagram.com/tyo_nugroh0/), etc. Maybe for now, it would be [loose.joints](loose.joints) (Thomas Villacorta). All of them are on Instagram.
+
+
+## Finally, If you had to keep only one toy, which one would you choose?
+
+Tough one. Probably Mafex Homecoming Spidey, and Mafex Tactical Suit Batman would be a close second.
