@@ -26,7 +26,7 @@ Dani is a toy photographer based in Barcelona. He's a big fan of toyphoto, espec
 
 ## What led you into toy photography?
 
-Well, I started with lego about 2014, first they were simple photos with my phone and little by little I wanted more. After discovering that there was a world in Instagram I wanted to be part and improve the quality of my pictures. From there I bought a reflex and started playing!
+Well, I started with lego about 2014, first they were simple photos with my phone and little by little I wanted more. **After discovering that there was a world in Instagram I wanted to be part** and improve the quality of my pictures. From there I bought a reflex and started playing!
 
 
 ## What’s your motivation?
@@ -61,6 +61,6 @@ And in my country (Spain) @suppaduppa666 and @martinmilantoys.
 
 ## Finally, If you had to keep only one toy, which one would you choose?
 
-That question is really difficult. I have many figures that I simply love! But possibly the Daft Punk SH Figuarts. They symbolize a lot to me. But for the record, I have others that also fascinate me.
+That question is really difficult. **I have many figures that I simply love!** But possibly the Daft Punk SH Figuarts. They symbolize a lot to me. But for the record, I have others that also fascinate me.
 
 ###### ["/assets/lovers/dani-orion-pax/dani-orion-pax_daft-punk_0.jpg", "/assets/lovers/dani-orion-pax/dani-orion-pax_daft-punk_1.jpg", "/assets/lovers/dani-orion-pax/dani-orion-pax_daft-punk_2.jpg", "/assets/lovers/dani-orion-pax/dani-orion-pax_daft-punk_3.jpg"]

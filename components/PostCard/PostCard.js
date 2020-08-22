@@ -52,8 +52,8 @@ const PostCard = ({
       onMouseLeave={() => dispatch({ color: '#000', type: DEFAULT_TYPE })}
       role="group"
     >
-      <Link as={`/posts/${slug}`} href="/posts/[slug]">
-        <Box as="a" aria-label={title} href={`/posts/${slug}`}>
+      <Link as={`/interviews/${slug}`} href="/interviews/[slug]">
+        <Box as="a" aria-label={title} href={`/interviews/${slug}`}>
           <AspectRatio ratio={600/480}>
             <Image
               style={{ backgroundColor: '#E2E8F0', objectFit: 'cover' }}

@@ -16,7 +16,7 @@ swiper: [
   '/assets/lovers/photoygraphe/photoygraphe_spike_1.jpg',
 ]
 instagram:
-  label: Photoygraphe's
+  label: Sébastien's
   link: https://www.instagram.com/photoygraphe/
 ---
 
@@ -24,7 +24,7 @@ Sébastien is a graphic designer/community manager based in France, near Paris.
 
 ## What led you into toy photography?
 
-I am an only-child, so younger the action figures allowed me to live amazing adventures with them. This enthusiasm has become a real passion.
+I am an only-child, so younger the action figures allowed me to live amazing adventures with them. **This enthusiasm has become a real passion.**
 I started to collect action figures when I was a teenager, with the ones of Spawn, from McFarlane, then with some Dragon Ball and nowadays, I collect a bit of everything.
 
 I already used to take pictures from them just for fun but I saw that others did the same.
@@ -33,7 +33,7 @@ I discovered amazing pictures took by passionate persons from all over the world
 
 ## What's your motivation?
 
-As a child, I loved to create histories with my action figures and it is always the case, I just changed the way I give life to them.
+As a child, **I loved to create histories with my action figures and it is always the case**, I just changed the way I give life to them.
 
 I’m a huge fan of pop culture, toys, movies, photography : **toyphotograpy is just a mix of all my passions.**
 
@@ -52,7 +52,7 @@ I have a Nikon D1500 camera with a af-s nikkor 18-55mm lens, the same camera I u
 
 I work generally inside my apartment, on my living room table.
 
-During a shooting, I prepare my diorama myself — it can take a lot of time — the goal is to create the illusion of a real and big set with just a few items. Then, I try to find the perfect pose in order to create a sensation of movement and set the light to create an atmosphere.
+During a shooting, I prepare my diorama myself — it can take a lot of time — the goal is to create the illusion of a real and big set with just a few items. Then, **I try to find the perfect pose in order to create a sensation of movement and set the light to create an atmosphere**.
 
 I use just a few thing, one or two LED light strings of different colors, depending on the atmosphere wanted, and two Ulanzi spotlights — one with a yellow filter. Then, I accentuate on Photoshop the lighting and the colors in order to obtain a bright picture.
 

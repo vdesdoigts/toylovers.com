@@ -56,15 +56,18 @@ export default function Post({ post }) {
                 {post.title} | {CMS_NAME}
               </title>
               
-              <meta property="og:description" content={post.excerpt} />
+              <meta property="og:description" content={`Interview with ${post.title}. ${post.excerpt}`} />
               <meta property="og:url" content={post.slug} />
-              <meta property="og:image" content={post.ogImage.url} />
-              {/* <meta property="og:image:url" content={`${GatsbyConfig.siteMetadata.siteUrl}/images/logo-1200x630.png`} /> */}
-              {/* <meta property="og:image:url:width" content="1200" /> */}
-              {/* <meta property="og:image:url:height" content="630" /> */}
+              <meta property="og:image" content={`https://www.toylovers.com${post.ogImage.url}`} />
               <meta property="article:published_time" content={post.date} />
+              
+              <meta name="twitter:title" content={post.title} />
               <meta name="twitter:card" content="summary_large_image" />
               <meta name="twitter:site" content="@vdesdoigts" />
+              <meta
+                name="twitter:image"
+                content={`https://www.toylovers.com${post.ogImage.url}`}
+              />
             </Head>
             <PostSwiper slides={post.swiper} />
             <Container

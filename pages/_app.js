@@ -30,17 +30,17 @@ function MyApp({ Component, pageProps }) {
           property="og:title"
           content="Toy Lovers"
         />
-        <meta property="og:description" content="" />
+        <meta property="og:description" content="Weekly interviews with toy photographers." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="" />
-        <meta property="og:locale" content="fr" />
+        <meta property="og:url" content="https://www.toylovers.com" />
+        <meta property="og:locale" content="eng" />
         <meta property="og:site_name" content="Toy Lovers" />
-        <meta property="og:image:url" content="" />
+        <meta property="og:image:url" content="https://www.toylovers.com/assets/images/logo-1200x630.png" />
         <meta property="og:image:url:width" content="1200" />
         <meta property="og:image:url:height" content="630" />
 
         <meta name="twitter:site" content="@vdesdoigts" />
-        <meta name="twitter:image" content="https://www.premieroctet.com/images/logo-600x600.png" />
+        <meta name="twitter:image" content="https://www.toylovers.com/assets/images/logo-600x600.png" />
       </Head>
       <div
         onMouseMove={(e) => {

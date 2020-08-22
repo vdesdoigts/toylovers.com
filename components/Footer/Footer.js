@@ -11,11 +11,29 @@ const Footer = () => {
       py="8"
     >
       <Text
-        as="a"
-        href="https://twitter.com/vdesdoigts"
-        target="_blank"
         fontSize="1.4rem"
-      >© 2020 Vincent Desdoigts</Text>
+      >
+        <Text
+          as="a"
+          href="https://interfacelovers.com/"
+        >
+          Inspired by interfacelovers.com
+        </Text>
+        {' '}-{' '}
+        <Text
+          as="a"
+          href="https://twitter.com/vdesdoigts"
+          target="_blank"
+          fontSize="1.4rem"
+        >
+          Made by Vincent Desdoigts
+        </Text>
+        {' '}-{' '}
+        <Text as="span">
+          © 2020 Toy Lovers
+        </Text>
+      </Text>
+      
     </Container>
   )
 }

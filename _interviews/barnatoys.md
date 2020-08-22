@@ -26,7 +26,7 @@ Pierre-Antoine’s a French toy photographer, living in Barcelona for more than 
 
 I remember playing a lot with my toys as kid, and thankfully I still have them nowadays at my parent’s house. I kept collecting some Star Wars action figures, and then with my first pay checks I mainly bought bust or statues of DC characters. 
 
-Then years ago I listened to a podcast about comics, and one of the host, Joe Hume aka [French Toy Love](https://www.instagram.com/french_toy_love) talked about his passion for toy photography. I was curious so I checked his insttagram account and immediately fell in love with this world. 
+Then years ago I listened to a podcast about comics, and one of the host, Joe Hume aka [French Toy Love](https://www.instagram.com/french_toy_love) talked about his passion for toy photography. I was curious so I checked his Instagram account and **immediately fell in love with this world**. 
 
 I started to shoot my toys in 2017. I found an offer on a Golden Freezer Figuarts and bought it, it was the first time I bought a figure with so many faces you could swap. He has a funny one smiling, that was my first shot. I did it with my phone, no technic at all, but I liked it and it became my profile picture, I didn’t changed it since then.
 
@@ -45,14 +45,12 @@ This is the type of question I try to answer with my photographies. **I try to k
 
 I used to shoot with a Canon 450D, that I just upgraded for an Canon 850D, and man, what a game changer. It eases my shooting sessions a lot!
 
-<!-- ![Canon 850D](/assets/lovers/barnatoys/barnatoys_gear.jpg) -->
-
 
 ## What does a typical photo shooting look like?
 
 I used to shoot a lot inside my apartment. I don’t have a lot of free time and I can’t spend hours on a shooting session, so I try to be efficient. 
 
-As I don’t have a lot of stuff to do dioramas, I used to shoot portrait style pictures. I used to use a garland to create bokeh effects, that’s a simple trick to have cool effects and result easily. Finally, I edit my pictures with the Photoshop phone app.
+As I don’t have a lot of stuff to do dioramas, I used to shoot portrait style pictures. I used to use a garland to create bokeh effects, **that’s a simple trick to have cool effects and result easily**. Finally, I edit my pictures with the Photoshop phone app.
 
 Since july with my new camera and with the fact that I am at family house, I can shoot a lot more outside, so I try to change a bit my habits. I can play with nature and practice new light effects. I try to have "natural" lights so I use one source of light only. I’m kind of in a "warm" zone lately, with sunset/sunrise simulations.
 
