@@ -58,7 +58,7 @@ export default function Post({ post }) {
               
               <meta property="og:description" content={`Interview with ${post.title}. ${post.excerpt}`} />
               <meta property="og:url" content={post.slug} />
-              <meta property="og:image" content={`https://www.toylovers.com${post.ogImage.url}`} />
+              <meta property="og:image" content={`https://www.toylovers.club${post.ogImage.url}`} />
               <meta property="article:published_time" content={post.date} />
               
               <meta name="twitter:title" content={post.title} />
@@ -66,7 +66,7 @@ export default function Post({ post }) {
               <meta name="twitter:site" content="@vdesdoigts" />
               <meta
                 name="twitter:image"
-                content={`https://www.toylovers.com${post.ogImage.url}`}
+                content={`https://www.toylovers.club${post.ogImage.url}`}
               />
             </Head>
             <PostSwiper slides={post.swiper} />

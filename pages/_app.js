@@ -32,15 +32,31 @@ function MyApp({ Component, pageProps }) {
         />
         <meta property="og:description" content="Weekly interviews with toy photographers." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.toylovers.com" />
+        <meta property="og:url" content="https://www.toylovers.club" />
         <meta property="og:locale" content="eng" />
         <meta property="og:site_name" content="Toy Lovers" />
-        <meta property="og:image:url" content="https://www.toylovers.com/assets/images/logo-1200x630.png" />
+        <meta property="og:image:url" content="https://www.toylovers.club/assets/images/logo-1200x630.png" />
         <meta property="og:image:url:width" content="1200" />
         <meta property="og:image:url:height" content="630" />
 
         <meta name="twitter:site" content="@vdesdoigts" />
-        <meta name="twitter:image" content="https://www.toylovers.com/assets/images/logo-600x600.png" />
+        <meta name="twitter:image" content="https://www.toylovers.club/assets/images/logo-600x600.png" />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=[Tracking ID]"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-21027712-7');
+            `,
+          }}
+        />
       </Head>
       <div
         onMouseMove={(e) => {
