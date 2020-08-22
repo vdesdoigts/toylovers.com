@@ -53,17 +53,19 @@ export default function Post({ post }) {
           <Box as="article" position="relative" pb="56">
             <Head>
               <title>
-                {post.title} | {CMS_NAME}
+                Interview with {post.title} | {CMS_NAME}
               </title>
-              
+              <meta
+                property="og:title"
+                content={`Interview with ${post.title} | ${CMS_NAME}`}
+              />
               <meta property="og:description" content={`Interview with ${post.title}. ${post.excerpt}`} />
               <meta property="og:url" content={post.slug} />
               <meta property="og:image" content={`https://www.toylovers.club${post.ogImage.url}`} />
               <meta property="article:published_time" content={post.date} />
               
-              <meta name="twitter:title" content={post.title} />
+              <meta name="twitter:title" content={`Interview with ${post.title} | ${CMS_NAME}`} />
               <meta name="twitter:card" content="summary_large_image" />
-              <meta name="twitter:site" content="@vdesdoigts" />
               <meta
                 name="twitter:image"
                 content={`https://www.toylovers.club${post.ogImage.url}`}

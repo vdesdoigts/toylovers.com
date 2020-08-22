@@ -5,6 +5,7 @@ import Head from 'next/head'
 import theme from '../styles/theme'
 import 'typeface-montserrat'
 import 'swiper/swiper-bundle.css';
+import { CMS_NAME } from '../lib/constants'
 import './../styles/globals.css'
 import Cursor from '../components/Cursor'
 import Footer from '../components/Footer'
@@ -28,13 +29,13 @@ function MyApp({ Component, pageProps }) {
 
         <meta
           property="og:title"
-          content="Toy Lovers"
+          content="Toy Lovers 🎈"
         />
         <meta property="og:description" content="Weekly interviews with toy photographers." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.toylovers.club" />
         <meta property="og:locale" content="eng" />
-        <meta property="og:site_name" content="Toy Lovers" />
+        <meta property="og:site_name" content="Toy Lovers 🎈" />
         <meta property="og:image" content="https://www.toylovers.club/assets/images/logo-1200x630.png" />
         <meta property="og:image:url" content="https://www.toylovers.club/assets/images/logo-1200x630.png" />
         <meta property="og:image:url:width" content="1200" />
