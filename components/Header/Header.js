@@ -7,6 +7,7 @@ import {
   Box,
   Button,
   Heading,
+  Icon,
   Modal,
   ModalOverlay,
   ModalContent,
@@ -17,7 +18,7 @@ import {
   Text,
   useDisclosure,
 } from '@chakra-ui/core'
-import { RiSearchLine } from 'react-icons/ri'
+import { RiSearchLine, RiTwitterLine } from 'react-icons/ri'
 import { useWindowScroll } from 'react-use'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import Container from '../Container'
@@ -45,21 +46,7 @@ const Header = () => {
     } else if (currPos.y >= -HEADER_HEIGHT && isMinified) {
       setIsMinified(false)
     }
-
-    // if (currPos.y < -70 && !isMinified) {
-    //   setIsMinified(true)
-    // } else if (currPos.y >= -70 && isMinified) {
-    //   setIsMinified(false)
-    // }
   })
-
-  // useEffect(() => {
-  //   if (y > 70 && !isMinified) {
-  //     setIsMinified(true)
-  //   } else if (y <= 70 && isMinified) {
-  //     setIsMinified(false)
-  //   }
-  // }, [y])
 
   return (
     <>
@@ -112,36 +99,49 @@ const Header = () => {
               Toy Lovers
             </Heading>
           </Link>
-          <Box>
+          <Box display="flex">
             <Text
               onClick={onOpen}
               position="relative"
               fontSize="1.6rem"
               cursor="pointer"
+              _before={{
+                content: `""`,
+                position: 'absolute',
+                zIndex: -1,
+                bottom: 0,
+                left: '-2px',
+                display: 'block',
+                width: 'calc(100% + 4px)',
+                height: '10%',
+                bg: '#FFFC0B',
+                transition: 'height .2s ease'
+              }}
               _hover={{
                 _before: {
-                  content: `""`,
-                  position: 'absolute',
-                  zIndex: -1,
-                  bottom: 0,
-                  left: '-6px',
-                  display: 'block',
-                  width: 'calc(100% + 12px)',
                   height: '56%',
-                  bg: '#FFFC0B',
                 }
               }}
             >
               About
             </Text>
-            {/* <RoundedButton fontSize="2.2rem" color="#000">
-              <Icon
-                as={RiSearchLine}
-                display="inline-block"
-                pb=".4rem"
+            <Box
+              as="a"
+              href="https://twitter.com/thetoylovers"
+              target="_blank"
+              pt=".2rem"
+              pl="2rem"
+              transition="color .2s ease"
+              _hover={{
+                color: '#FFFC0B',
+              }}
+            >
+              <Box
+                as={RiTwitterLine}
+                size="2rem"
                 verticalAlign="middle"
               />
-            </RoundedButton> */}
+            </Box>
           </Box>
         </Container>
       </Box>

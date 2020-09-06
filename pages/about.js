@@ -60,7 +60,7 @@ export default function Post({ post }) {
                 <Box
                   as="a"
                   target="_blank"
-                  href="https://twitter.com/vdesdoigts"
+                  href="https://twitter.com/thetoylovers"
                   position="relative"
                   zIndex={0}
                   display="inline-block"
@@ -84,7 +84,7 @@ export default function Post({ post }) {
                     }
                   }}
                 >
-                  @vdesdoigts
+                  @thetoylovers
                 </Box>
                 {' '}if you have any request or comment.
               </Text>

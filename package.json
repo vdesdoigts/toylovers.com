@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@chakra-ui/core": "^1.0.0-rc.0",
+    "@chakra-ui/icons": "^1.0.0-next.3",
     "@chakra-ui/theme": "^1.0.0-rc.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "@material-ui/icons": "^4.9.1",
     "@n8tb1t/use-scroll-position": "^1.0.43",
     "classnames": "^2.2.6",
     "date-fns": "^2.15.0",

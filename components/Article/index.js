@@ -54,6 +54,22 @@ export const Link = (props) => (
   />
 )
 
+export const Video = (props) => {
+  const video = JSON.parse(props.children[0])
+
+  return (
+    <Box
+      mt={16}
+      mb={4}
+    >
+      <video controls>
+        <source src={`${video}.webm`} type="video/webm; codecs=vp9,vorbis" />
+        <source src={`${video}.mp4`} type="video/mp4" />
+      </video>
+    </Box>
+  )
+}
+
 export const Swiper = (props) => {
   const slides = JSON.parse(props.children[0])
 

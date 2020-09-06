@@ -41,8 +41,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image:url:width" content="1200" />
         <meta property="og:image:url:height" content="630" />
 
-        <meta name="twitter:site" content="@vdesdoigts" />
-        <meta name="twitter:creator" content="@vdesdoigts" />
+        <meta name="twitter:site" content="@thetoylovers" />
+        <meta name="twitter:creator" content="@thetoylovers" />
         <meta name="twitter:image" content="https://www.toylovers.club/assets/images/logo-600x600.png" />
 
         <script
