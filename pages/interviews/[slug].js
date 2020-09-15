@@ -52,7 +52,7 @@ export default function Post({ post }) {
           <Box as="article" position="relative" pb="56">
             <Head>
               <title>
-                Interview with {post.title} | {CMS_NAME}
+                Interview with {post.title} — {CMS_NAME}
               </title>
               <meta
                 property="og:title"

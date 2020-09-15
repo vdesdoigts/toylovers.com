@@ -1,6 +1,6 @@
 ---
 title: Late Toy Show
-excerpt: "Alan is a Creative Director and Motion Graphics Designer living in Philippines with his wife and daughter. "
+excerpt: "Alan is a Creative Director and Motion Graphics Designer living in Philippines with his wife and daughter."
 coverImage: '/assets/lovers/late-toy-show/late-toy-show_evil_0.jpg'
 date: '2020-08-23T08:00:00.000Z'
 author:
