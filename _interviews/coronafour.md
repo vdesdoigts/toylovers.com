@@ -38,7 +38,7 @@ Once that started, I discovered so many incredible accounts with crazy talented 
 
 ## What’s your motivation?
 
-Escape. Fun. Exploration. Storytelling. Community. Makeing new friends from around the world. Wanting to learn and grow and improve. Hoping to make someone smile or think or join in the adventure. **Keeping the kid in me alive and thriving.** There are so many aspects to this hobby that continue to motivate and inspire me. 
+Escape. Fun. Exploration. Storytelling. Community. Making new friends from around the world. Wanting to learn and grow and improve. Hoping to make someone smile or think or join in the adventure. **Keeping the kid in me alive and thriving.** There are so many aspects to this hobby that continue to motivate and inspire me. 
 
 And as someone who works in a creative industry, it’s so awesome to have an outlet where I don’t have a boss, client or budget dictating what I can and cannot do. **It’s just me, my toys, and my imagination.**
 
