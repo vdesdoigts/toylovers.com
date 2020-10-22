@@ -26,7 +26,7 @@ Valentin Phoreau is a photographer from Bordeaux, France. He can be found on Ins
 
 ## What led you into toy photography?
 
-I started photography in 2014 as an extension of my graphic design passion. The first years, i was shooting — like all beginners i guess — family and cats. In 2017 I decide to upgrade and focus on models/glamour photography which is still my first hobby — [Animagyne](https://www.instagram.com/animagyne/) on Instagram. Summer 2018, french web show **"20th Century toys"** with Joe Hume and Ben Renaut made me want to buy toys and shoot. **Today, i think toy photography is my excuse to buy a lot of action figures.**
+I started photography in 2014 as an extension of my graphic design passion. The first years, I was shooting — like all beginners I guess — family and cats. In 2017 I decide to upgrade and focus on models/glamour photography which is still my first hobby — [Animagyne](https://www.instagram.com/animagyne/) on Instagram. Summer 2018, french web show **"20th Century toys"** with Joe Hume and Ben Renaut made me want to buy toys and shoot. **Today, I think toy photography is my excuse to buy a lot of action figures.**
  
 ## What’s your motivation?
 
@@ -37,7 +37,7 @@ I think toy photography is just a lovely term to describe adults playing with to
  
 ## What’s your gear?
 
-I'm using a Fujifilm X-T3 with few lenses. 80% of my shots with my 90mm macro. When i need more field of view, I'm using 35mm or 56mm. I'm not a diorama photographer — it’s my weakness — but get first one few month ago. I use some accessoires, walls from Tamashii for exemple, but not so much.
+I'm using a Fujifilm X-T3 with few lenses. 80% of my shots with my 90mm macro. When I need more field of view, I'm using 35mm or 56mm. I'm not a diorama photographer — it’s my weakness — but get first one few month ago. I use some accessoires, walls from Tamashii for exemple, but not so much.
 
 For lighting, **I'm using Lumecube, Manfrotto Lumimuse and some yongnuo stuff**. I used atmosphere aerosol for a long time. It’s a cool trick to add smoke. Three months ago I bought a fog machine which is a lot cheaper, easier to use but more heterogeneous and, of course, did much more smoke. 
  

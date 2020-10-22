@@ -20,7 +20,7 @@ instagram:
   link: https://www.instagram.com/monsterlaut/
 ---
 
-Gibran Risnutama is a toy photorapher from Jakarta, you can check his work on Instagram under the name [Monsterlaut](https://www.instagram.com/monsterlaut/).
+Gibran Risnutama is a toy photographer from Jakarta, you can check his work on Instagram under the name [Monsterlaut](https://www.instagram.com/monsterlaut/).
 
 ## What led you into toy photography?
 
@@ -44,7 +44,7 @@ I used a mirror less camera, Lumix GX7. I'm just an enthusiast on photography so
 
 **My work is heavily influenced by Alex Ross.** So you'll find many of my shots were overexposed on some parts because I want to get close to what he did on the visuals.
 
-So usually I only use 1 light source, an external flash, and sometimes a couple of bouncers.
+So usually I only use one light source, an external flash, and sometimes a couple of bouncers.
 
 ###### ["/assets/lovers/monsterlaut/monsterlaut_batman_03.jpg", "/assets/lovers/monsterlaut/monsterlaut_ultraman_01.jpg", "/assets/lovers/monsterlaut/monsterlaut_tom_00.jpg", "/assets/lovers/monsterlaut/monsterlaut_batman_00.jpg", "/assets/lovers/monsterlaut/monsterlaut_batman_01.jpg"]
 
@@ -56,7 +56,7 @@ Do it for yourself, like is just a number. Get fun with it, be wild, explore thi
 
 ## Who is your favorite toy photographer at the moment, or the one who inspires you the most?
 
-There are many that inspires me at first like [rams_ands](https://www.instagram.com/rams_ands/), [ovic_yulkarnain](https://www.instagram.com/ovic_yulkarnain/), [noserain](https://www.instagram.com/noserain/) and [plasticaction](https://www.instagram.com/plasticaction/), but the one that really thought me about posing was [saintsyn](https://www.instagram.com/saintsyn/).
+There are many that inspires me at first like [rams_ands](https://www.instagram.com/rams_ands/), [ovic_yulkarnain](https://www.instagram.com/ovic_yulkarnain/), [noserain](https://www.instagram.com/noserain/) and [plasticaction](https://www.instagram.com/plasticaction/), but the one that really thought me about posing was [saintsyn.](https://www.instagram.com/saintsyn/)
 
 For my favorite right now is [ser__geo](https://www.instagram.com/ser__geo/)  but my all time favorite is [arthurjr](https://www.instagram.com/arthurjr/). His work really enjoyable, simple ideas brilliant set up.
 
