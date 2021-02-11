@@ -20,7 +20,7 @@
     "date-fns": "^2.15.0",
     "embla-carousel": "^3.0.23",
     "emotion-theming": "^10.0.27",
-    "next": "9.5.1",
+    "next": "9.5.4",
     "react": "16.13.1",
     "react-cool-img": "^1.2.1",
     "react-dom": "16.13.1",
