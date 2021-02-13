@@ -1,6 +1,6 @@
 # Toy Lovers
 
-Just go to https://toylovers.club/ and have fun.
+Just go to https://toylovers.club and have fun.
 
 ![Toy Lovers homepage](toylovers.png)
 
